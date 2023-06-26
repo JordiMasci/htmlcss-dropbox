@@ -105,12 +105,46 @@ main h1 {
 
 .card-orizontal {
     width: 900px;
-    height: 300px;
+    height: 250px;
     border: 1px solid lightgray;
     margin-top: 40px;
     
 }
 
+.card-orizontal p {
+    margin: 15px 0;
+}
+
+
+.col-sx {
+    width: 70%;
+    height: 300px;
+
+}
+
+.col-dx {
+    width: 30%;
+    height: 300px;
+
+}
+
+.col-sx h2, h5 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.col-sx p {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.col-dx button {
+    padding: 8px 35px;
+    color: white;
+    background-color: #0161ff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
 
 /* UTILI */
 .flex {
