@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* HEADER */
+
+.container-full {
+    width: 100%;
+    height: 60px;
+    
+}
+
+nav > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Jumbotrom */
+
+.jumbotrom {
+   
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+   padding-top: 50px;
+      
+}
+
+.jumbotrom img {
+    max-width: 100%;
+}
+
+.jumbotrom p {
+    margin: 20px 0;
+}
+
+.first-titol {
+    
+    font-size: 50px;
+}
+
+.button-top {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+
+/* MAIN */
+.container-main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.radio {
+    margin-right: 20px;
+}
+
+
+.card {
+    width: calc(100% - 600px);
+    min-height: 1000px;
+    border: 1px solid lightgray;
+    
+}
+
+.card-size {
+    margin: 30px 20px;
+}
+
+.card-size h2 {
+    margin-bottom: 25px;
+}
+
+.card-size > p {
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.card-size button {
+    padding: 8px 35px;
+    color: white;
+    background-color: #0161ff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+
+.card-orizontal {
+    width: 900px;
+    height: 300px;
+    border: 1px solid lightgray;
+    margin-top: 40px;
+    
+}
+
+
+/* UTILI */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-aqua {
+    background-color: #b4d0e7;
+}
+
+.gap {
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.utente {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.margin-extra {
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+
+.color-blue {
+    color: blue;
+}
+
+.text-center {
+    text-align: center;
+}
