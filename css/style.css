@@ -81,6 +81,7 @@ nav > img {
     font-size: 64px;
     margin-top: auto;
 }
+
 /* MAIN */
 .container-main {
     max-width: 900px;
@@ -184,6 +185,7 @@ main h1 {
     height: 500px;
     background-color: #0161ff;
 }
+
 /* UTILI */
 .flex {
     display: flex;
