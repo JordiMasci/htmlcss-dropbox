@@ -12,6 +12,11 @@ body {
 /* HEADER */
 
 header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
     padding: 0 15px;
 }
 
@@ -27,6 +32,10 @@ nav > a {
     color: black;
 }
 
+nav > img {
+    margin-right: 15px;
+}
+    
 
 /* Jumbotrom */
 
@@ -35,8 +44,8 @@ nav > a {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    /* text-align: center; */
-   padding-top: 50px;
+    padding-top: 120px;
+    
       
 }
 
@@ -45,13 +54,13 @@ nav > a {
 }
 
 .jumbotrom p {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .first-titol {
     
     font-size: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .button-top {
@@ -60,7 +69,18 @@ nav > a {
     color: white;
 }
 
+.y {
+    width: 30%;
+}
 
+.z {
+    width: 70%;
+}
+
+.icon {
+    font-size: 64px;
+    margin-top: auto;
+}
 /* MAIN */
 .container-main {
     max-width: 900px;
