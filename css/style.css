@@ -89,6 +89,8 @@ nav > img {
     margin-right: auto;
 }
 
+/* 1 SECTION */
+
 main h1 {
     font-size: 40px;
     margin-top: 100px;
@@ -127,6 +129,10 @@ main h1 {
     margin-top: 25px;
     margin-bottom: 30px;
     
+}
+
+main i {
+    margin-right: 5px;
 }
 
 .card-orizontal {
