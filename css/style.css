@@ -203,7 +203,7 @@ main i {
     color: gray;
 }
 
-/* 3 SECTIOn */
+/* 3 SECTION */
 
 .box {
     width: calc(100% / 3);
@@ -215,8 +215,29 @@ main i {
 }
 
 .box p {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
+
+/* SECTION LOGHI */
+
+.container-loghi {
+    width: 100%;
+    height: 400px;
+   
+}
+
+.loghi {
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: tomato;
+}
+
+.loghi-center {
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: blue;
+}
+
 /* UTILI */
 .flex {
     display: flex;
@@ -255,10 +276,18 @@ main i {
     margin-top: 150px;
 }
 
+.margin-bottom {
+    margin-bottom: 80px;
+}
+
 .color-blue {
     color: blue;
 }
 
 .text-center {
     text-align: center;
+}
+
+.line-height {
+    line-height: 1.3;
 }
