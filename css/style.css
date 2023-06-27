@@ -203,6 +203,20 @@ main i {
     color: gray;
 }
 
+/* 3 SECTIOn */
+
+.box {
+    width: calc(100% / 3);
+    max-height: 500px;
+}
+
+.box h2 {
+    margin: 25px 0;
+}
+
+.box p {
+    margin-bottom: 50px;
+}
 /* UTILI */
 .flex {
     display: flex;
