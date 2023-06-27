@@ -238,6 +238,18 @@ main i {
     background-color: blue;
 }
 
+.logo {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    background-color: bisque;
+}
+
+svg {
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+}
+
 /* UTILI */
 .flex {
     display: flex;
@@ -247,6 +259,10 @@ main i {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap ;
+}
+
 .space-between {
     justify-content: space-between;
     align-items: center;
@@ -254,6 +270,22 @@ main i {
 
 .bg-aqua {
     background-color: #b4d0e7;
+}
+
+.bg-green {
+    background-color: #a2d39b;
+}
+
+.bg-purple {
+    background-color: #62092b;
+}
+
+.bg-blue {
+    background-color: #0093ce;
+}
+
+.bg-red {
+    background-color: #ff1b1c;
 }
 
 .gap {
