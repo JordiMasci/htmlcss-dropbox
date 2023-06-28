@@ -104,7 +104,7 @@ main h1 {
 
 
 .card {
-    width: calc(100% - 600px);
+    width: calc((100% - 80px ) / 3);
     min-height: 1000px;
     border: 1px solid lightgray;
     
@@ -300,6 +300,19 @@ main i {
     list-style-type: none;
 }
 
+.trattino-2::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 80px;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+#margin {
+    margin-left: 10px;
+    margin-right: 6px;
+}
 
 
 
@@ -312,6 +325,10 @@ main i {
 
 .flex-column {
     flex-direction: column;
+}
+
+.flex-end {
+    justify-content: end;
 }
 
 .wrap {
