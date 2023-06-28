@@ -253,8 +253,14 @@ main i {
     background-color: bisque;
 }
 
-.transform > img {
-    margin-top: 70px;
+
+
+.transform {
+    transform: scale(0.5)
+}
+
+.logo-centrale {
+    padding: 20px;
 }
 
 
@@ -263,8 +269,41 @@ main i {
 .container-prova {
     width: 100%;
     min-height: 300px;
-    background-color: #0d2481;
+    background-color: #b4d0e7;
 }
+
+.titol-prova {
+    max-width: 400px;
+}
+
+.button-final {
+    padding: 8px 25px;
+    background-color: white;
+    margin-left: 200px;
+}
+
+
+/* FOOTER */
+
+.container-footer {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+.line-height-2 h3 {
+    margin-bottom: 20px;
+}
+
+.list-style-type {
+    list-style-type: none;
+}
+
+
+
+
+
 
 /* UTILI */
 .flex {
@@ -337,9 +376,10 @@ main i {
     line-height: 1.3;
 }
 
-.transform {
-    transform: scale(0.5)
+.line-height-2 {
+    line-height: 1.8;
 }
+
 
 /* BG COLOR */
 
@@ -377,4 +417,8 @@ main i {
 
 .bg-yellow {
     background-color: #ffd830;
+}
+
+.bg-beige {
+    background-color: #f5f5f5;
 }
