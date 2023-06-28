@@ -263,7 +263,9 @@ main i {
     padding: 20px;
 }
 
-
+.padding {
+    padding: 20px 30px;
+}
 /* SECTION PROVA GRATUITA */
 
 .container-prova {
