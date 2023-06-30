@@ -78,6 +78,10 @@ nav > img {
     width: 70%;
 }
 
+.z > img {
+    margin-bottom: -395px;
+}
+
 .icon {
     font-size: 64px;
     margin-top: auto;
